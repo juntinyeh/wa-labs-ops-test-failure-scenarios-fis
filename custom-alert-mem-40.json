@@ -1,0 +1,15 @@
+{
+    "TargetValue":40.0,
+    "CustomizedMetricSpecification":{
+       "MetricName":"MemoryUtilization",
+       "Namespace":"WebApp1",
+       "Dimensions":[
+          {
+             "Name":"AutoScalingGroupName",
+             "Value":"[WebApp1]"
+          }
+       ],
+       "Statistic":"Average",
+       "Unit":"Percent"
+    }
+ }

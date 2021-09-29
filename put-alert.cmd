@@ -1,0 +1,1 @@
+aws autoscaling put-scaling-policy --policy-name Memory40-target-tracking-scaling-policy --auto-scaling-group-name WebApp1 --policy-type TargetTrackingScaling --target-tracking-configuration file://custom-alert.json
